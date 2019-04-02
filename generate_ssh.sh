@@ -1,7 +1,7 @@
 echo Setting git config:
 
-export GITHUB_NAME="Daher Alfawares"
-export GITHUB_EMAIL="daher.alfawares@live.com"
+export GITHUB_NAME="Sam Waddell"
+export GITHUB_EMAIL="swaddell@solstice.com"
 
 echo changing git config to $GITHUB_NAME - $GITHUB_EMAIL
 git config --global user.email $GITHUB_EMAIL 
