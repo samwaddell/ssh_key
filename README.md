@@ -5,7 +5,7 @@ First run the following commands to generate your key:
 ```bash
 #!/usr/bin/bash
 
-wget https://raw.githubusercontent.com/daher-alfawares/ssh_key/master/generate_ssh.sh
+wget https://raw.githubusercontent.com/samwaddell/ssh_key/master/generate_ssh.sh
 chmod +x generate_ssh.sh
 ./generate_ssh.sh
 pbcopy < ~/.ssh/id_rsa.pub
